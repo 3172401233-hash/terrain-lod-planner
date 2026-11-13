@@ -1,0 +1,29 @@
+{
+  "name": "terrain-lod-planner",
+  "version": "1.0.0",
+  "description": "Dependency-free CPU terrain quadtree LOD planner with frustum culling, 2:1 balance, skirts and vertex-budget degradation",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./planner": "./lib/planner.js",
+    "./math": "./lib/math.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "terrain",
+    "lod",
+    "quadtree",
+    "frustum-culling",
+    "game-engine"
+  ]
+}
